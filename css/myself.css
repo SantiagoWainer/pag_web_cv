@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+    box-sizing: border-box;
+    
+}
+.wrapper, .myself_titulo{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin-top: 5vh ;
+   
+
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+.wrapper{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(https://img.freepik.com/fotos-premium/fondo-laptop-espacio-trabajo-computadora-laptop_11358-1412.jpg?w=2000) ;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.testimonial{
+    padding: 30px 100px;
+}
+.articulo .myself_titulo{
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+.articulo .myself_titulo:after{
+    content: "";
+    height: 5px;
+    width: 225px;
+    background-color: #fff;
+    display: block;
+    margin: auto;
+}
+.articulo img{
+    margin-bottom: 4vw;
+    height: 250px;
+    width: 250px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-top: 60px;
+}
+
+blockquote{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    margin-top: 30px;
+    
+    padding: 0vw 20vw;
+}
+.articulo h5{
+    text-transform: uppercase;
+    font-size: 28px;
+    margin-top: 30px;
+    letter-spacing: 1.5px;
+}
+.articulo p{
+    font-size: 14px;
+
+}
+@media screen and (max-width: 768px){
+    blockquote{
+        padding: 0vw ;
+    }
+}
+.curriculum{
+    text-decoration: none;
+    background-color: rgb(240, 92, 92);
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 15px;
+    border: solid 2px white;
+    border-radius: 50px;
+    align-content: center;
+}
+
+
+
+
+
+
+

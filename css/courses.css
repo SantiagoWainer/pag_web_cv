@@ -1,0 +1,19 @@
+h1{
+   background-color: #7acee0; 
+}
+.custom-shape-divider-top-1674927400 {
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1674927400 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 106px;
+}
+
+.custom-shape-divider-top-1674927400 .shape-fill {
+    fill: #7acee0;;
+}

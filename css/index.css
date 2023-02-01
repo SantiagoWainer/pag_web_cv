@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Josefin+Sans:ital,wght@1,200;1,400&family=Montserrat:wght@200;400;600&family=Quicksand:wght@300&display=swap');
+body{
+    background-image: url(https://img.freepik.com/fotos-premium/fondo-textura-marmol-blanco_38679-514.jpg?w=2000);
+}
+.presentacion{
+    font-family: 'Montserrat';
+
+    box-sizing: border-box;
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bienvenida{
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 55px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+span{
+    font-size: 25px;
+    color: #ff5080;
+}
+.descripcion{
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+.presentacion a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 25px;
+    padding: 20px 25px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .5s;
+}
